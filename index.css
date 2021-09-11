@@ -1,0 +1,26 @@
+.wrapper__config {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.wrapper__config-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__best-results {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 16px;
+}
+
+.wrapper__canvas {
+  display: flex;
+  justify-content: center;
+}
+
+#canvas {
+  border: 1px solid gray;
+  margin-top: 10px;
+}

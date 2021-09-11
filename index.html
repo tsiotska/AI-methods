@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+    <div class="wrapper__config">
+        <div class="wrapper__config-field">
+            <label>Ants count(5)</label>
+            <input class="ants" type="text" value="5">
+        </div>
+        <div class="wrapper__config-field">
+            <label>Nodes (8)</label>
+            <input class="nodes" type="text" value="8">
+        </div>
+        <div class="wrapper__config-field">
+            <label>Max Distance (380)</label>
+            <input class="max-distance" type="text" value="380">
+        </div>
+        <div class="wrapper__config-field">
+            <label>Iter (10)</label>
+            <input class="iterations" type="text" value="10">
+        </div>
+        <div class="wrapper__config-field">
+            <label>Alpha (1.0)</label>
+            <input class="alpha" type="text" value="1.0">
+        </div>
+        <div class="wrapper__config-field">
+            <label>Beta (0.7)</label>
+            <input class="beta" type="text" value="2.0">
+        </div>
+        <div class="wrapper__config-field">
+            <label>Pho (0.1)</label>
+            <input class="pho" type="text" value="0.1">
+        </div>
+        <div class="wrapper__config-field">
+            <label>Pher (1.0)</label>
+            <input class="pheromones" type="text" value="1.0">
+        </div>
+        <div class="wrapper__config-field">
+            <label>Q (1.0)</label>
+            <input class="Q" type="text" value="1.0" placeholder="Q (1.0)">
+        </div>
+        <!-- <button class="" id="refresh">Refresh</button>-->
+        <button id="start">Start</button>
+        <div>
+            <div class="wrapper__best-results">
+                <label>Best Iteration</label>
+                <span class="best-iteration">0</span>
+                <label>Best Path</label>
+                <span class="best-path">0</span>
+                <label>Best Length</label>
+                <span class="best-length">0</span>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper__canvas">
+        <canvas id="canvas" width="380px" height="380px"></canvas>
+    </div>
+</div>
+<script src="Graph.js"></script>
+<script src="Ant.js"></script>
+<script src="Colony.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
