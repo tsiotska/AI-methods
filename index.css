@@ -1,0 +1,50 @@
+.wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+}
+
+.wrapper__proto-container {
+    display: grid;
+    grid-template-columns: fit-content(200px) fit-content(250px);
+    grid-column-gap: 20px;
+}
+
+#recommendations {
+    border: 2px solid black;
+}
+
+.product-container {
+    display: flex;
+    margin-left: 25px;
+}
+
+.product-label {
+    text-align: center;
+    min-width: 80px;
+}
+
+.recommendation-vector {
+    display: flex;
+}
+
+.recommendation-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    min-width: 20px;
+}
+
+.recommendation-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid black;
+    min-width: 40px;
+}
+
+.wrapper__label {
+
+}
